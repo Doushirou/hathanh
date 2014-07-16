@@ -5,13 +5,19 @@
 		</div>
 		<div class="content-main" >
 			<div class="products-left" style="background-image: url('img/hush.jpg');">
-				<h2>Hush Firewood</h2>
+                <h2>
+                    <?= lang('product-hush-firewood'); ?>
+                </h2>
 			</div>
-			<div class="products-right" style="background-image: url('img/chip.jpg');">
-				<h2>Wood Chip</h2>
+            <div class="products-right" style="background-image: url('img/chip.jpg');">
+                <h2>
+                    <?= lang('product-wood-chip'); ?>
+                </h2>
 			</div>
 			<div class="products-right" style="background-image: url('img/rubber.jpg');">
-				<h3>Natural Rubber</h3>
+                <h3>
+                    <?= lang('product-natural-rubber'); ?>
+                </h3>
 			</div>
 		</div>
 	</div>
